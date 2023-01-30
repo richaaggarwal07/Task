@@ -1,0 +1,104 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap'); */
+
+*{
+    font-weight: 400px;
+    /* margin: 0 1% ; */
+    font-family: 'Playfair Display', serif;
+  
+}
+
+
+    
+.header_sec1{
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    /* margin: 1px; */
+}
+.header_sec1 div{
+    margin-top: 15px;
+}    
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    background-color:rgb(58,66,72) ;
+    color: white;
+    height: 250px;
+    margin: 15px;
+    
+}
+.bannerText{
+    padding: 20px;
+    width: 65%;
+}
+button{
+    color:grey;
+    height: 30px;
+    background-color: var(--white);
+    border: 1px solid;
+    border-radius: 4px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:hover{
+    color:green;
+}
+.thumbnail{
+    background-color:rgb(58,66,72);
+    border: 2px solid black;
+    width:35%;
+    color:white;
+}
+
+.thumbnailtext{
+    text-align: center;
+    top:45%;
+    transform: translateY(-50%);
+    position: relative;
+
+}
+.cards,.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    border-top: 1px grey solid;
+    text-align: center;
+}
+.card{
+    box-shadow: 0px 4px 8px 0px grey;
+    width: 50%;
+    margin: 10px;
+    
+}
+.cards{
+    margin: 0px 10px;
+}
+.part1{
+    padding: 3%;
+}
+.part1>p,h1
+{
+   margin: 4px;
+}
+.part1>h4
+{
+    margin-bottom: 6px;
+    color: var(--lightblue);
+}
+.bannerText h4{
+    color: white;
+    font-weight: bold;
+}
+
+.part1 h4{
+    color: rgb(22, 121, 182);
+    font-size: 15px;
+}
